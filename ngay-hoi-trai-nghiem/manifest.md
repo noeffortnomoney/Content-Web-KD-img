@@ -6,10 +6,10 @@ Cột cuối giữ **URL Cloudinary cũ** để tra ngược khi cần đối ch
 
 | Vai trò ô | File | Thông tin | URL Cloudinary cũ |
 |---|---|---|---|
-| banner-pc | `banner-pc.webp` | 1979×1100 · 105 KB · **dựng lại 2026-09-11 từ ảnh gốc mới** `KDS-8.5.2405261-phoi_canh_twedqd.jpg` (2997×1963) | `c_scale,h_721/c_lpad,w_2139,h_1100,g_east,y_8,b_gen_fill/c_crop,w_1979,h_1100,g_east` |
-| banner-pc-cut | `banner-pc-cut.webp` | 1979×1100 · 117 KB · **dựng lại 2026-09-11 từ ảnh gốc mới** `KDS-8.5.2405261-phoi_canh_twedqd.jpg` (2997×1963) | `như trên + e_background_removal` |
-| banner-tablet | `banner-tablet.webp` | 1738×1450 · 80 KB · **dựng lại 2026-09-11 từ ảnh gốc mới** `KDS-8.5.2405261-phoi_canh_twedqd.jpg` (2997×1963) | `c_scale,h_569/c_lpad,w_1738,h_1450,g_east,b_gen_fill` |
-| banner-mobile | `banner-mobile.webp` | 824×1483 · 66 KB · **dựng lại 2026-09-11 từ ảnh gốc mới** `KDS-8.5.2405261-phoi_canh_twedqd.jpg` (2997×1963) | `c_scale,w_824/c_pad,ar_5:9,g_south,b_gen_fill` |
+| banner-pc | `banner-pc.webp` | 1979×1100 · 90 KB · **dựng lại 2026-09-11** từ `KDS-8.5.2405261-phoi_canh_twedqd.jpg` (2997×1963) | `c_crop,x_120,w_2877,h_1963/c_scale,h_721/c_lpad,w_2139,h_1100,g_east,y_8,b_gen_fill → c_crop,w_1979,h_1100,g_east + nâng sáng đều R+10.7 G+11.9 B+11.0 cho vùng AI (x<822), vuốt tắt tại chỗ nối x=922` |
+| banner-pc-cut | `banner-pc-cut.webp` | 1979×1100 · 102 KB · **dựng lại 2026-09-11** từ `KDS-8.5.2405261-phoi_canh_twedqd.jpg` (2997×1963) | `như banner-pc (chưa nâng sáng) + e_background_removal` |
+| banner-tablet | `banner-tablet.webp` | 1738×1450 · 82 KB · **dựng lại 2026-09-11** từ `KDS-8.5.2405261-phoi_canh_twedqd.jpg` (2997×1963) | `c_crop,x_120,w_2877,h_1963/c_scale,h_593/c_lpad,w_1738,h_1450,g_east,b_gen_fill` |
+| banner-mobile | `banner-mobile.webp` | 824×1483 · 67 KB · **dựng lại 2026-09-11** từ `KDS-8.5.2405261-phoi_canh_twedqd.jpg` (2997×1963) | `c_crop,x_120,w_2877,h_1963/c_scale,w_824/c_pad,ar_5:9,g_south,b_gen_fill` |
 | nem-demo | `nem-demo.webp` | 900×445 · 29 KB | `https://res.cloudinary.com/dxhsejldo/image/upload/c_scale,w_900/f_auto,q_auto/v1788921083/nemdeluxe2_q0q7m0.png` |
 | qua-ga-bo-kymdan-seren | `qua-ga-bo-kymdan-seren.webp` | 312×312 · 15 KB · thu nhỏ 2026-09-10 từ 2000×2000 · bản gốc ở `qua-ga-bo-kymdan-seren-full.jpg` | `https://res.cloudinary.com/dxhsejldo/image/upload/f_auto,q_auto/v1788764771/Untitled-1_uzapih.jpg` |
 | qua-men-chan-kymdan-sl | `qua-men-chan-kymdan-sl.webp` | 312×312 · 8 KB · thu nhỏ 2026-09-10 từ 2000×2000 · bản gốc ở `qua-men-chan-kymdan-sl-full.jpg` | `https://res.cloudinary.com/dxhsejldo/image/upload/f_auto,q_auto/v1788764770/Untitled-2_youizt.jpg` |
